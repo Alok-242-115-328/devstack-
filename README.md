@@ -57,33 +57,7 @@ Conditional rendering means showing different UI based on some condition — usi
 Data goes **down** from parent to child via **props** — for example, `<TechCard tech={tech} onAdd={addToStack} />`. To send data **up**, the parent passes a **callback function** as a prop, and the child calls it when needed — like calling `onAdd(tech)` when the user clicks "Add to Stack". This keeps state centralized in the parent.
 
 ---
-
-## 🚀 Getting Started
-
-```bash
-# Install dependencies
-npm install
-
-# Run development server
-npm run dev
-
-# Build for production
-npm run build
-```
-
----
-
-## 📤 Submission Links
-
-- **GitHub Repository:** [https://github.com/Alok-242-115-328/devstack-](https://github.com/Alok-242-115-328/devstack-)
 - **Live Site:** : https://agent-6aa6d1328d1--a05-dev-stack-builder-website.netlify.app
 
----
-
-## 📝 License
-
-This project was built for educational purposes as part of an assignment.
-
----
 
 *© 2026 Dev Stack. All rights reserved.*
